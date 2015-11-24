@@ -1,0 +1,41 @@
+<html>
+	<head></head>
+	<body>
+
+		<script>
+			for (var i = 120; i < 141; i++) {
+				console.log(i);
+			}
+			var milk = "*";
+			var shlomi = milk;
+
+			for (var i = 1; i <= 5; i++) {
+				console.log(shlomi);
+				shlomi = shlomi + milk;
+			}
+
+			var stud = [{
+				"name" : "timor",
+				"age" : 26,
+				"height" : 1.56
+			}, {
+				"name" : "adiel",
+				"age" : 26,
+				"height" : 1.26
+			}, {
+				"name" : "shlomi",
+				"age" : 26,
+				"height" : 1.80
+			}];
+
+			for (var i = 0; i < stud.length; i++) {
+				console.log(stud[i].height);
+			};
+
+			for (var i = 0; i < stud.length; i++) {
+				console.log(stud[i].height = 1.75);
+			};
+
+		</script>
+	</body>
+</html>
